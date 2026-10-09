@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeLedger Offline – Datenschutz</title>
+<meta name="description" content="Datenschutzerklärung der Android-App HomeLedger Offline / Privacy policy of the Android app HomeLedger Offline / Politique de confidentialité de l'application Android HomeLedger Offline">
+<style>
+:root{--bg:#ffffff;--fg:#1c1b1f;--muted:#5f5b66;--line:#dcd8e0;--accent:#6200ee;--box:#f3effa;--warn:#c62828}
+@media (prefers-color-scheme: dark){:root{--bg:#121212;--fg:#e6e1e5;--muted:#a9a4ad;--line:#3a3740;--accent:#bb86fc;--box:#1f1b26;--warn:#ef9a9a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 64px}
+nav.lang{display:flex;gap:16px;margin-bottom:8px;font-size:.95em}
+a{color:var(--accent)}
+h1{font-size:1.6em;margin:.4em 0 .2em}
+h2{font-size:1.2em;margin:1.8em 0 .4em}
+section.l{border-top:1px solid var(--line);margin-top:40px;padding-top:8px}
+section.l:first-of-type{border-top:0;margin-top:0}
+.meta{color:var(--muted);font-size:.92em}
+.box{background:var(--box);border-left:4px solid var(--accent);border-radius:4px;padding:10px 14px;margin:14px 0}
+.box.warn{border-left-color:var(--warn)}
+.box p{margin:.35em 0}
+ul{padding-left:1.3em}
+li{margin:.3em 0}
+address{font-style:normal}
+</style>
+</head>
+<body>
+<main>
+<nav class="lang" aria-label="Sprache / Language / Langue"><a href="#de">Deutsch</a><a href="#en">English</a><a href="#fr">Français</a></nav>
+
+<section class="l" id="de" lang="de">
+<h1>Datenschutzerklärung – HomeLedger Offline</h1>
+<p class="meta">Gilt für die Android-App „HomeLedger Offline“. Stand: 10. Oktober 2026.</p>
+
+<div class="box">
+<p><b>Kurz gesagt:</b> Die App erhebt keine Daten über Sie. Es gibt kein Konto, keine Anmeldung, keine Werbung und keine Analyse- oder Tracking-Dienste. Alles, was Sie eingeben, bleibt auf Ihrem Telefon. Der Anbieter der App erhält davon nichts.</p>
+<p>Daten verlassen das Telefon nur, wenn Sie selbst einen KI-Dienst mit Ihrem eigenen Schlüssel nutzen oder eine Sicherung an einem Ort Ihrer Wahl ablegen.</p>
+</div>
+
+<h2>1. Verantwortlicher</h2>
+<address>Anbieter der App HomeLedger Offline<br>E-Mail: <a href="mailto:theledgee0@gmail.com">theledgee0@gmail.com</a></address>
+
+<h2>2. Welche Daten die App verarbeitet</h2>
+<p>Die App ist ein Haushaltsbuch. Sie verarbeitet nur, was Sie selbst eingeben oder importieren:</p>
+<ul>
+<li>Ausgaben, Einnahmen, Kategorien und Personen Ihres Haushalts,</li>
+<li>Zähler, Zählerstände und Fotos von Zählern, die Sie mit der Kamera aufnehmen,</li>
+<li>Kontoauszüge, die Sie importieren (CSV oder PDF), mit Buchungsdaten wie Empfänger, Verwendungszweck, IBAN und Betrag,</li>
+<li>optional Ihre API-Schlüssel für Anthropic (Claude), Google (Gemini) und OpenAI (ChatGPT).</li>
+</ul>
+<p>Diese Daten werden ausschließlich im geschützten Speicherbereich der App auf Ihrem Telefon gespeichert. API-Schlüssel liegen verschlüsselt auf dem Gerät und werden nie exportiert. Die App ist von der Android-Sicherung in die Google-Cloud ausgenommen.</p>
+
+<h2>3. Berechtigungen</h2>
+<ul>
+<li><b>Kamera:</b> um Zählerstände zu fotografieren. Die Fotos werden auf dem Telefon gespeichert.</li>
+<li><b>Internet:</b> nur für die unten genannten KI-Dienste, wenn Sie sie nutzen, und für die Diagnosedaten von Google ML Kit (Abschnitt 5).</li>
+</ul>
+
+<h2>4. KI-Dienste mit Ihrem eigenen Schlüssel (optional)</h2>
+<p>Wenn Sie in den Einstellungen einen eigenen API-Schlüssel eintragen, kann die App Inhalte an den jeweiligen Anbieter senden – jeweils erst durch eine Handlung von Ihnen, und vor jedem Senden fragt die App nach und nennt den Empfänger:</p>
+<ul>
+<li><b>Auslesen von Dokumenten und Fotos:</b> PDF-Kontoauszüge, CSV-Dateien in unbekanntem Format und Zählerfotos an Anthropic, Google oder OpenAI, je nach Ihrer Wahl.</li>
+<li><b>Kategorie-Vorschläge</b> (nur wenn in den Einstellungen eingeschaltet): Empfänger und Verwendungszweck von Buchungen ohne Kategorie an Anthropic, ohne Beträge und IBANs.</li>
+</ul>
+<p>Die Übertragung erfolgt direkt vom Telefon zum Anbieter, verschlüsselt (HTTPS), über Ihr eigenes Konto bei diesem Anbieter. Der Anbieter der App sieht diese Daten nicht. Die Verarbeitung beim KI-Anbieter richtet sich nach dessen Bedingungen und Datenschutzerklärung; die Anbieter können ihren Sitz außerhalb der EU und der Schweiz haben (insbesondere in den USA):</p>
+<ul>
+<li>Anthropic: <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a></li>
+<li>Google (Gemini API): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+<li>OpenAI: <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a></li>
+</ul>
+<div class="box warn"><p><b>Hinweis zu Kontoauszügen:</b> Ein Kontoauszug, den ein KI-Dienst ausliest, verlässt das Telefon mit allen Buchungen – Namen, IBANs, Beträgen, Verwendungszwecken. Wer das nicht möchte, importiert Kontoauszüge als CSV in einem bekannten Bankformat; diese werden nur auf dem Telefon gelesen. Ohne API-Schlüssel sendet die App keine Inhalte an KI-Dienste.</p></div>
+
+<h2>5. Texterkennung (Google ML Kit)</h2>
+<p>Zahlen auf Zählerfotos erkennt die App auf dem Telefon mit Google ML Kit. Fotos und erkannte Zahlen werden dabei nicht an Google gesendet. ML Kit übermittelt jedoch technische Diagnose- und Nutzungsdaten an Google, etwa Gerätemodell, Android- und App-Version sowie Leistungswerte der Erkennung. Details: <a href="https://developers.google.com/ml-kit/android-data-disclosure">developers.google.com/ml-kit/android-data-disclosure</a>.</p>
+
+<h2>6. Export und Sicherung</h2>
+<p>Exporte und die automatische Sicherung legt die App als Datei an dem Ort ab, den Sie im Android-Dateiauswahldialog wählen, zum Beispiel auf dem Telefon oder in Google Drive. Die Datei enthält Ihre Einträge und Fotos, aber keine API-Schlüssel. An einem Cloud-Speicher gelten die Bedingungen des jeweiligen Dienstes.</p>
+
+<h2>7. Google Play</h2>
+<p>Die App wird über Google Play vertrieben. Bei Installation und Updates verarbeitet Google Daten nach seinen eigenen Bedingungen. Wenn Sie dies in Android erlaubt haben, kann Google dem Anbieter zusammengefasste, anonyme Absturz- und Stabilitätsberichte zur Verfügung stellen; diese enthalten keine Inhalte aus der App.</p>
+
+<h2>8. Speicherdauer und Löschung</h2>
+<p>Ihre Daten bleiben auf dem Telefon, bis Sie sie in der App löschen, die App-Daten in den Android-Einstellungen löschen oder die App deinstallieren. Exporte und Sicherungen bleiben an dem Ort, an dem Sie sie abgelegt haben, bis Sie sie dort löschen.</p>
+
+<h2>9. Ihre Rechte</h2>
+<p>Sie haben nach DSGVO und Schweizer Datenschutzgesetz (DSG) unter anderem das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht auf Beschwerde bei einer Datenschutz-Aufsichtsbehörde. Da der Anbieter der App keine Daten über Sie speichert, können Sie Ihre Daten in der App selbst einsehen, ändern, exportieren und löschen. Für Daten bei einem KI-Anbieter wenden Sie sich an diesen. Fragen beantwortet der Verantwortliche gern (Abschnitt 1).</p>
+
+<h2>10. Kinder</h2>
+<p>Die App richtet sich nicht an Kinder unter 16 Jahren.</p>
+
+<h2>11. Änderungen</h2>
+<p>Ändert sich, wie die App mit Daten umgeht, wird diese Erklärung angepasst; das Datum oben zeigt den Stand.</p>
+</section>
+
+<section class="l" id="en" lang="en">
+<h1>Privacy policy – HomeLedger Offline</h1>
+<p class="meta">Applies to the Android app “HomeLedger Offline”. Last updated: 10 October 2026.</p>
+
+<div class="box">
+<p><b>In short:</b> The app collects no data about you. There is no account, no sign-in, no advertising and no analytics or tracking services. Everything you enter stays on your phone. The provider of the app receives none of it.</p>
+<p>Data only leaves the phone when you yourself use an AI service with your own key, or store a backup at a place of your choice.</p>
+</div>
+
+<h2>1. Controller</h2>
+<address>The provider of the app HomeLedger Offline<br>E-mail: <a href="mailto:theledgee0@gmail.com">theledgee0@gmail.com</a></address>
+
+<h2>2. What data the app processes</h2>
+<p>The app is a household ledger. It processes only what you enter or import yourself:</p>
+<ul>
+<li>spendings, incomes, categories and the people of your household,</li>
+<li>meters, meter readings and photos of meters you take with the camera,</li>
+<li>bank statements you import (CSV or PDF), with booking data such as payee, purpose, IBAN and amount,</li>
+<li>optionally your API keys for Anthropic (Claude), Google (Gemini) and OpenAI (ChatGPT).</li>
+</ul>
+<p>This data is stored only in the app's private storage on your phone. API keys are kept encrypted on the device and are never exported. The app is excluded from Android's backup to Google's cloud.</p>
+
+<h2>3. Permissions</h2>
+<ul>
+<li><b>Camera:</b> to photograph meter readings. The photos are stored on the phone.</li>
+<li><b>Internet:</b> only for the AI services below, if you use them, and for Google ML Kit's diagnostic data (section 5).</li>
+</ul>
+
+<h2>4. AI services with your own key (optional)</h2>
+<p>If you enter your own API key in the settings, the app can send content to that provider – each time only through an action of yours, and before every sending the app asks and names the recipient:</p>
+<ul>
+<li><b>Reading documents and photos:</b> PDF statements, CSV files in an unknown format and meter photos to Anthropic, Google or OpenAI, as you choose.</li>
+<li><b>Category suggestions</b> (only if switched on in the settings): payee and purpose of bookings without a category to Anthropic, without amounts or IBANs.</li>
+</ul>
+<p>The transfer goes directly from the phone to the provider, encrypted (HTTPS), through your own account with that provider. The provider of the app does not see this data. Processing by the AI provider is governed by its terms and privacy policy; the providers may be located outside the EU and Switzerland (in particular in the USA):</p>
+<ul>
+<li>Anthropic: <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a></li>
+<li>Google (Gemini API): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+<li>OpenAI: <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a></li>
+</ul>
+<div class="box warn"><p><b>Note on bank statements:</b> A statement read by an AI service leaves the phone with every booking – names, IBANs, amounts, purposes. If you do not want that, import statements as CSV in a known bank format; those are read on the phone only. Without an API key, the app sends no content to AI services.</p></div>
+
+<h2>5. Text recognition (Google ML Kit)</h2>
+<p>The app recognises the numbers on meter photos on the phone with Google ML Kit. Photos and recognised numbers are not sent to Google. ML Kit does, however, send technical diagnostic and usage data to Google, such as the device model, Android and app version and performance figures of the recognition. Details: <a href="https://developers.google.com/ml-kit/android-data-disclosure">developers.google.com/ml-kit/android-data-disclosure</a>.</p>
+
+<h2>6. Export and backup</h2>
+<p>Exports and the automatic backup are saved as a file at the place you choose in Android's file picker, for example on the phone or in Google Drive. The file contains your entries and photos, but no API keys. In a cloud storage, that service's terms apply.</p>
+
+<h2>7. Google Play</h2>
+<p>The app is distributed through Google Play. On installation and updates, Google processes data under its own terms. If you allowed this in Android, Google may provide the developer with aggregated, anonymous crash and stability reports; these contain no content from the app.</p>
+
+<h2>8. Retention and deletion</h2>
+<p>Your data stays on the phone until you delete it in the app, clear the app's data in Android's settings or uninstall the app. Exports and backups stay where you stored them until you delete them there.</p>
+
+<h2>9. Your rights</h2>
+<p>Under the GDPR and the Swiss Federal Act on Data Protection (FADP) you have, among others, the right of access, rectification, erasure, restriction of processing, data portability and objection, and the right to lodge a complaint with a data protection authority. As the provider of the app stores no data about you, you can view, change, export and delete your data in the app itself. For data held by an AI provider, contact that provider. The controller is happy to answer questions (section 1).</p>
+
+<h2>10. Children</h2>
+<p>The app is not directed at children under 16.</p>
+
+<h2>11. Changes</h2>
+<p>If the way the app handles data changes, this policy will be updated; the date at the top shows the current version.</p>
+</section>
+
+<section class="l" id="fr" lang="fr">
+<h1>Politique de confidentialité – HomeLedger Offline</h1>
+<p class="meta">S'applique à l'application Android « HomeLedger Offline ». Mise à jour : 10 octobre 2026.</p>
+
+<div class="box">
+<p><b>En bref :</b> l'application ne collecte aucune donnée vous concernant. Pas de compte, pas de connexion, pas de publicité, aucun service d'analyse ou de suivi. Tout ce que vous saisissez reste sur votre téléphone. Le fournisseur de l'application n'en reçoit rien.</p>
+<p>Des données ne quittent le téléphone que si vous utilisez vous-même un service d'IA avec votre propre clé, ou si vous déposez une sauvegarde à l'endroit de votre choix.</p>
+</div>
+
+<h2>1. Responsable du traitement</h2>
+<address>Le fournisseur de l'application HomeLedger Offline<br>E-mail : <a href="mailto:theledgee0@gmail.com">theledgee0@gmail.com</a></address>
+
+<h2>2. Données traitées par l'application</h2>
+<p>L'application est un livre de ménage. Elle ne traite que ce que vous saisissez ou importez vous-même :</p>
+<ul>
+<li>dépenses, revenus, catégories et personnes de votre ménage,</li>
+<li>compteurs, relevés et photos de compteurs prises avec l'appareil photo,</li>
+<li>relevés bancaires importés (CSV ou PDF), avec des données comme bénéficiaire, motif, IBAN et montant,</li>
+<li>facultativement vos clés API pour Anthropic (Claude), Google (Gemini) et OpenAI (ChatGPT).</li>
+</ul>
+<p>Ces données sont enregistrées uniquement dans l'espace privé de l'application sur votre téléphone. Les clés API sont chiffrées sur l'appareil et ne sont jamais exportées. L'application est exclue de la sauvegarde Android vers le cloud de Google.</p>
+
+<h2>3. Autorisations</h2>
+<ul>
+<li><b>Appareil photo :</b> pour photographier les relevés de compteurs. Les photos sont enregistrées sur le téléphone.</li>
+<li><b>Internet :</b> uniquement pour les services d'IA ci-dessous, si vous les utilisez, et pour les données de diagnostic de Google ML Kit (section 5).</li>
+</ul>
+
+<h2>4. Services d'IA avec votre propre clé (facultatif)</h2>
+<p>Si vous saisissez votre propre clé API dans les paramètres, l'application peut envoyer des contenus au fournisseur concerné – chaque fois seulement par une action de votre part, et avant chaque envoi l'application demande et nomme le destinataire :</p>
+<ul>
+<li><b>Lecture de documents et de photos :</b> relevés PDF, fichiers CSV d'un format inconnu et photos de compteurs à Anthropic, Google ou OpenAI, selon votre choix.</li>
+<li><b>Propositions de catégories</b> (seulement si activées dans les paramètres) : bénéficiaire et motif des écritures sans catégorie à Anthropic, sans montants ni IBAN.</li>
+</ul>
+<p>Le transfert se fait directement du téléphone au fournisseur, chiffré (HTTPS), via votre propre compte chez ce fournisseur. Le fournisseur de l'application ne voit pas ces données. Le traitement par le fournisseur d'IA relève de ses conditions et de sa politique de confidentialité ; ces fournisseurs peuvent être établis hors de l'UE et de la Suisse (notamment aux États-Unis) :</p>
+<ul>
+<li>Anthropic : <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a></li>
+<li>Google (API Gemini) : <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+<li>OpenAI : <a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a></li>
+</ul>
+<div class="box warn"><p><b>Remarque sur les relevés bancaires :</b> un relevé lu par un service d'IA quitte le téléphone avec toutes ses écritures – noms, IBAN, montants, motifs. Si vous ne le souhaitez pas, importez les relevés en CSV dans un format bancaire connu ; ils sont lus uniquement sur le téléphone. Sans clé API, l'application n'envoie aucun contenu à des services d'IA.</p></div>
+
+<h2>5. Reconnaissance de texte (Google ML Kit)</h2>
+<p>L'application reconnaît les chiffres des photos de compteurs sur le téléphone avec Google ML Kit. Les photos et les chiffres reconnus ne sont pas envoyés à Google. ML Kit transmet toutefois à Google des données techniques de diagnostic et d'utilisation, comme le modèle de l'appareil, les versions d'Android et de l'application et des valeurs de performance de la reconnaissance. Détails : <a href="https://developers.google.com/ml-kit/android-data-disclosure">developers.google.com/ml-kit/android-data-disclosure</a>.</p>
+
+<h2>6. Export et sauvegarde</h2>
+<p>Les exports et la sauvegarde automatique sont enregistrés sous forme de fichier à l'endroit que vous choisissez dans le sélecteur de fichiers d'Android, par exemple sur le téléphone ou dans Google Drive. Le fichier contient vos écritures et photos, mais aucune clé API. Dans un stockage cloud, les conditions du service concerné s'appliquent.</p>
+
+<h2>7. Google Play</h2>
+<p>L'application est distribuée via Google Play. Lors de l'installation et des mises à jour, Google traite des données selon ses propres conditions. Si vous l'avez autorisé dans Android, Google peut fournir au développeur des rapports de plantage et de stabilité agrégés et anonymes ; ils ne contiennent aucun contenu de l'application.</p>
+
+<h2>8. Durée de conservation et suppression</h2>
+<p>Vos données restent sur le téléphone jusqu'à ce que vous les supprimiez dans l'application, effaciez les données de l'application dans les paramètres d'Android ou désinstalliez l'application. Les exports et sauvegardes restent là où vous les avez déposés jusqu'à ce que vous les y supprimiez.</p>
+
+<h2>9. Vos droits</h2>
+<p>Selon le RGPD et la loi suisse sur la protection des données (LPD), vous disposez notamment des droits d'accès, de rectification, d'effacement, de limitation du traitement, de portabilité et d'opposition, ainsi que du droit d'introduire une réclamation auprès d'une autorité de protection des données. Comme le fournisseur de l'application ne conserve aucune donnée vous concernant, vous pouvez consulter, modifier, exporter et supprimer vos données dans l'application elle-même. Pour les données détenues par un fournisseur d'IA, adressez-vous à celui-ci. Le responsable répond volontiers à vos questions (section 1).</p>
+
+<h2>10. Enfants</h2>
+<p>L'application ne s'adresse pas aux enfants de moins de 16 ans.</p>
+
+<h2>11. Modifications</h2>
+<p>Si la manière dont l'application traite les données change, cette politique sera mise à jour ; la date en haut indique la version en vigueur.</p>
+</section>
+</main>
+</body>
+</html>
